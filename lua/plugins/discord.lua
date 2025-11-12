@@ -5,7 +5,7 @@ return {
     opts = {
       -- General options
       auto_update = true,
-      neovim_image_text = "The One True Text Editor",
+      neovim_image_text = "Trans rights are human rights",
       main_image = "neovim",
       client_id = "793271441293967371",
       log_level = nil,
