@@ -1,6 +1,6 @@
 return {
   {
-    "williamboman/mason.nvim",
+    "mason-org/mason.nvim",
     opts = {
       ensure_installed = {
         -- Formatters
@@ -16,19 +16,20 @@ return {
   },
   
   {
-    "williamboman/mason-lspconfig.nvim",
+    "mason-org/mason-lspconfig.nvim",
     opts = {
       ensure_installed = {
         -- C/C++
         "clangd",
+        "asm_lsp",
         
         -- Python
         "pyright",
-        "ruff_lsp",
+        "ruff",
         
         -- Web/JS/TS
         "ts_ls",
-        "volar",        -- Vue
+        "vue_ls",        -- Vue
         "html",
         "cssls",
         "tailwindcss",
