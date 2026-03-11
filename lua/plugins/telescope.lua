@@ -1,6 +1,8 @@
-require('telescope').setup{
-  defaults = {
-    file_ignore_patterns = {},
-    hidden = true,  -- show dotfiles
-  }
+return {
+  "nvim-telescope/telescope.nvim",
+  opts = {
+    defaults = {
+      file_ignore_patterns = {},
+    },
+  },
 }
