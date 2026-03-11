@@ -36,6 +36,9 @@ require("lazy").setup({
     
     -- Custom Plugins
     { import = "plugins" },
+
+    -- Telescope
+    { "nvim-telescope/telescope.nvim", dependencies = { "nvim-lua/plenary.nvim" } },
   },
   defaults = {
     lazy = false,
