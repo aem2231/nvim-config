@@ -4,8 +4,8 @@ return {
     name = "catppuccin",
     priority = 1000,
     opts = {
-      flavour = "mocha", -- latte, frappe, macchiato, mocha
-      transparent_background = false,
+      flavour = "mocha",
+      transparent = true,
       integrations = {
         cmp = true,
         gitsigns = true,
@@ -16,12 +16,11 @@ return {
           enabled = true,
           indentscope_color = "",
         },
-        telescope = true,
+        telescope = { enabled = true },
         which_key = true,
       },
     },
   },
-  
   {
     "LazyVim/LazyVim",
     opts = {
